@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<style>
+body{
+    background:#f1f3f6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial;
+}
+.box{
+    width:700px;
+    height:400px;
+    display:flex;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 4px 10px #aaa;
+}
+.left{
+    width:40%;
+    background:#2874f0;
+    color:#fff;
+    text-align:center;
+    padding:40px;
+}
+.left img{width:120px;margin-top:80px;}
+.right{
+    width:60%;
+    padding:40px;
+}
+input{
+    width:100%;
+    padding:12px;
+    margin:15px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:25px;
+    font-size:15px;
+    cursor:pointer;
+}
+.login{background:#fb641b;color:#fff;}
+.signup{background:#fff;color:#2874f0;border:1px solid #2874f0;}
+</style>
+</head>
+<body>
+<div class="box">
+    <div class="left">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Flipkart_logo.png">
+        <p>Ab har wish hogi poori</p>
+    </div>
+    <div class="right">
+        <h2>Login</h2>
+        <label>Email/Mobile</label>
+        <input type="text" placeholder="Email / Mobile">
+        <label>Password</label>
+        <input type="password" placeholder="Password">
+        <button class="login">Login</button>
+        <button class="signup">Sign up</button>
+    </div>
+</div>
+</body>
+</html>
